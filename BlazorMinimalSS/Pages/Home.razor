@@ -2,14 +2,10 @@
 @using SkiaSharp
 @using SkiaSharp.Views.Blazor
 
-<PageTitle>Home</PageTitle>
-
 <h1>Mesh Test</h1>
 <hr />
-<div class="row">
-    <div class="col" align="center">
-        <SKCanvasView OnPaintSurface="PaintSurface" style="@Style" />
-    </div>
+<div>
+    <SKCanvasView OnPaintSurface="PaintSurface" style="@Style" />
 </div>
 
 @code {
@@ -37,13 +33,12 @@
         {
             canvas.DrawLine(x, 0, x, h, penMesh);
         }
-        canvas.DrawLine(w - 1, 0, w - 1, h, penMesh);
         // y
         float my = h / 20.0F;
         for (float y = 0; y < h; y += my)
         {
             canvas.DrawLine(0, y, w, y, penMesh);
         }
-        canvas.DrawLine(0, h - 1, w, h - 1, penMesh);
+        canvas.DrawRect(0, 0, w - 1, h - 1, penMesh);
     }
 }

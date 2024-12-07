@@ -1,17 +1,18 @@
-crit: Microsoft.AspNetCore.Components.WebAssembly.Rendering.WebAssemblyRenderer[100]
-      Unhandled exception rendering component: Could not set up parent class, due to: Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' (0) due to: Could not resolve type with token 01000039 from typeref (expected class 'Microsoft.JSInterop.IJSUnmarshalledObjectReference' in assembly 'Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60') assembly:Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 type:Microsoft.JSInterop.IJSUnmarshalledObjectReference member:(null) assembly:SkiaSharp.Views.Blazor.dll type:JSModuleInterop member:(null)
-System.TypeLoadException: Could not set up parent class, due to: Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' (0) due to: Could not resolve type with token 01000039 from typeref (expected class 'Microsoft.JSInterop.IJSUnmarshalledObjectReference' in assembly 'Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60') assembly:Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 type:Microsoft.JSInterop.IJSUnmarshalledObjectReference member:(null) assembly:SkiaSharp.Views.Blazor.dll type:JSModuleInterop member:(null)
-   at SkiaSharp.Views.Blazor.SKCanvasView.OnAfterRenderAsync(Boolean firstRender)
 
-
-    Could not set up parent class, due to: Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' 
-
-
-    2024-11-29
----
+2024-11-29
+----------
 crit: Microsoft.AspNetCore.Components.WebAssembly.Rendering.WebAssemblyRenderer[100]
       Unhandled exception rendering component: Could not set up parent class, due to: Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' (0) due to: Could not resolve type with token 01000039 from typeref (expected class 'Microsoft.JSInterop.IJSUnmarshalledObjectReference' in assembly 'Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60') assembly:Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 type:Microsoft.JSInterop.IJSUnmarshalledObjectReference member:(null) assembly:SkiaSharp.Views.Blazor.dll type:JSModuleInterop member:(null)
 System.TypeLoadException: Could not set up parent class, due to: Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' (0) due to: Could not resolve type with token 01000039 from typeref (expected class 'Microsoft.JSInterop.IJSUnmarshalledObjectReference' in assembly 'Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60') assembly:Microsoft.JSInterop, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 type:Microsoft.JSInterop.IJSUnmarshalledObjectReference member:(null) assembly:SkiaSharp.Views.Blazor.dll type:JSModuleInterop member:(null)
    at SkiaSharp.Views.Blazor.SKCanvasView.OnAfterRenderAsync(Boolean firstRender)
 
 SkiaSharp .net 0. Could not load type of field 'SkiaSharp.Views.Blazor.Internal.JSModuleInterop:moduleTask' 
+
+
+2024-12-07
+----------
+Update to 3.118.0-preview.2.3
+
+-- Start Without Debbuging: OK!
+
+-- Start With Debbuging: No canvas element was provided.
