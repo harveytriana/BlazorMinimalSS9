@@ -14,5 +14,8 @@ SkiaSharp .net 0. Could not load type of field 'SkiaSharp.Views.Blazor.Internal.
 Update to 3.118.0-preview.2.3
 
 -- Start Without Debbuging: OK!
-
 -- Start With Debbuging: « No canvas element was provided. »
+
+
+OK
+<PackageReference Include="SkiaSharp.Views.Blazor" Version="3.116.1" />
